@@ -1,0 +1,106 @@
+.outerContainer-1 {
+  background-color: blueviolet;
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+.heading-txt {
+  padding-top: 5vh;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5vh;
+}
+.quizBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  height: 65vh;
+  width: 40vw;
+  box-shadow: 2px 2px 10px 1px #333;
+  background-color: red;
+  border-radius: 15px;
+}
+.question {
+  margin: 2vh 2vw;
+  box-shadow: 0px 0px 10px 1px #a2a3a3;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  min-width: 100%;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#question-number {
+  margin-right: 5px;
+}
+.option-container {
+  border-radius: 20px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  width: 100%;
+  padding: 2vh;
+}
+
+.option-btn {
+  box-shadow: 0px 0px 4px 1px rgb(128, 123, 123);
+  padding: 1vh;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+  margin: 1vh;
+  height: 7vh;
+  background-color: white;
+}
+
+.checked {
+  background-color: rgb(179, 83, 179);
+  color: white;
+  box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+}
+
+.option-btn:hover {
+  background-color: rgb(212, 118, 212);
+  color: white;
+}
+
+#next-button {
+  padding: 2vh;
+  border: none;
+  background-color: #276272;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  font-size: larger;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: 0.2s;
+  width: 10vw;
+  position: absolute;
+  top: 70vh;
+}
+@media only screen and (max-width: 765px) {
+  .quizBox {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #next-button {
+    width: 20vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #next-button {
+    width: 30vw;
+  }
+}

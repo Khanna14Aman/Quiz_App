@@ -1,0 +1,37 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["New York", "London", "Paris", "Dublin"],
+    "answer": "Paris"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Vincent Van Gogh",
+      "Pablo Picasso",
+      "Leonardo Da Vinci",
+      "Claude Monet"
+    ],
+    "answer": "Leonardo Da Vinci"
+  },
+  {
+    "question": "What is the capital of India?",
+    "options": ["Lucknow", "Mumbai", "New Delhi", "Kolkata"],
+    "answer": "New Delhi"
+  },
+  {
+    "question": "What is the capital of Uttar Pradesh?",
+    "options": ["Lucknow", "Mumbai", "New Delhi", "Kolkata"],
+    "answer": "Lucknow"
+  },
+  {
+    "question": "Which is the tallest building in the world?",
+    "options": ["Shanghai Tower", "Burj Khalifa", "Taj Hotel", "Oberoi Hotel"],
+    "answer": "Burj Khalifa"
+  },
+  {
+    "question": "What is the name of our national bird?",
+    "options": ["Sparrow", "Eagle", "Crow", "Peacock"],
+    "answer": "Peacock"
+  }
+]
