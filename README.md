@@ -1,6 +1,6 @@
 # Quiz_App [Go Live](https://quiz-app-react-pied.vercel.app/)
 This is a React project where user can attend the MCQ quiz and get their score at the end.
-### Below are the instructions given by which you can run this project on your local computer and also you can build it to deploy live.
+Below are the instructions given by which you can run this project on your local computer and also you can build it to deploy live.
 
 # Getting Started with Create React App
 
